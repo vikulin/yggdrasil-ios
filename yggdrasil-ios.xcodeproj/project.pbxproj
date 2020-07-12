@@ -22,7 +22,7 @@
 			containerPortal = E593CE631DF8FC3C00D7265D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E593CE961DF905AF00D7265D;
-			remoteInfo = yggdrasil-ios;
+			remoteInfo = "yggdrasil-ios";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,7 +49,7 @@
 		E593CE781DF8FC3C00D7265D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E593CE7A1DF8FC3C00D7265D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E593CE971DF905AF00D7265D /* yggdrasil-iosTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "yggdrasil-iosTunnel.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E593CE9A1DF905AF00D7265D /* NEPacketTunnelVPNDemoTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NEPacketTunnelVPNDemoTunnel.entitlements; sourceTree = "<group>"; };
+		E593CE9A1DF905AF00D7265D /* yggdrasil-iosTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "yggdrasil-iosTunnel.entitlements"; sourceTree = "<group>"; };
 		E593CE9B1DF905AF00D7265D /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 		E593CE9D1DF905AF00D7265D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +116,7 @@
 		E593CE991DF905AF00D7265D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E593CE9A1DF905AF00D7265D /* NEPacketTunnelVPNDemoTunnel.entitlements */,
+				E593CE9A1DF905AF00D7265D /* yggdrasil-iosTunnel.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 				E593CE9F1DF905AF00D7265D /* PBXTargetDependency */,
 			);
 			name = "yggdrasil-ios";
-			productName = yggdrasil-ios;
+			productName = "yggdrasil-ios";
 			productReference = E593CE6B1DF8FC3C00D7265D /* yggdrasil-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -156,7 +156,7 @@
 			dependencies = (
 			);
 			name = "yggdrasil-iosTunnel";
-			productName = yggdrasil-iosTunnel;
+			productName = "yggdrasil-iosTunnel";
 			productReference = E593CE971DF905AF00D7265D /* yggdrasil-iosTunnel.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
@@ -424,13 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9G62EVBAGM;
-				INFOPLIST_FILE = yggdrasil-iosTunnel/Info.plist;
+				INFOPLIST_FILE = "yggdrasil-iosTunnel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ne.packet.tunnel.vpn.demo.tunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8ce353d5-fd5f-4d5e-b664-8ad294091125";
-				PROVISIONING_PROFILE_SPECIFIER = yggdrasil-iosTunnel;
+				PROVISIONING_PROFILE_SPECIFIER = "yggdrasil-iosTunnel";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -440,13 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9G62EVBAGM;
-				INFOPLIST_FILE = yggdrasil-iosTunnel/Info.plist;
+				INFOPLIST_FILE = "yggdrasil-iosTunnel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ne.packet.tunnel.vpn.demo.tunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8ce353d5-fd5f-4d5e-b664-8ad294091125";
-				PROVISIONING_PROFILE_SPECIFIER = yggdrasil-iosTunnel;
+				PROVISIONING_PROFILE_SPECIFIER = "yggdrasil-iosTunnel";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
